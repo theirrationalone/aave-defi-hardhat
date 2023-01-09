@@ -1,0 +1,39 @@
+{
+  "name": "project-06-defi-hardhat",
+  "version": "1.0.0",
+  "description": "This Project Demonstrates Basic Exchanges of Decentralized Finance, It simulates one complete cycle of a DEFI from Deposit to Repay Powered By AAVE.",
+  "main": "aaveBorrow.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "solidity",
+    "chainlink",
+    "chainlink-contracts",
+    "ERC20-Tokens",
+    "WETHs",
+    "Hardhat",
+    "DEFI",
+    "Lending",
+    "Borrowing",
+    "aave",
+    "aave-protocol"
+  ],
+  "author": "theirrationalone",
+  "license": "MIT",
+  "devDependencies": {
+    "@aave/protocol-v2": "^1.0.1",
+    "@chainlink/contracts": "^0.5.1",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@^0.3.0-beta.13",
+    "@openzeppelin/contracts": "^4.8.0",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.12.5",
+    "hardhat-deploy": "^0.11.22",
+    "prettier": "^2.8.2",
+    "prettier-plugin-solidity": "^1.1.1",
+    "solhint": "^3.3.7"
+  }
+}
